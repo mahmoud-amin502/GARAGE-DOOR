@@ -1,2 +1,2 @@
 # GARAGE-DOOR
-Controlling a garage door whether to open it or change the password for that garage door, this is done using 2 microcontrollers communicating using the UART one take all the user inputs as it's connected to the keyboard and send all the input to the other microcontroller to decide which action needs to be done and then send back to the first microcontroller to display the message to the user on the LCD, if the use entered the door password right then the motor will rotate clockwise for 15 secs, hold the motor for 3 secs then rotate anticlockwise for 15 secs, if the use hit the password 3 times wrong then the buzzer will be activated for 1 min and displaying " Wrong Pass "
+
